@@ -1,0 +1,27 @@
+
+/* Este permite cambiar el modelo por defecto*/
+*{
+  box-sizing: border-box;
+  /* definir la altura */
+  height: 120px;
+  /* definir el ancho */
+  width: 200px;
+  /* definir el colchonsito */
+  padding: 6px;
+  /* definir el margen la separacion entre cada div*/
+  margin: 12px;
+}
+
+/* llamamos a la clase yellow*/
+.yellow {
+  /* colocamos el color de fondo amarillo */
+ background-color: #ffc107;
+}
+
+/* llamamos a la clase black*/
+.black {
+  /* colocamos el color de fondo negro*/
+  background-color: rgba(0,0,0,0.80);
+  /*colocamos el color de letra*/
+  color: white;
+}
